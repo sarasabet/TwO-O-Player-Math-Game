@@ -5,7 +5,7 @@ require './gameplay'
 
 puts "Welcome to TwO-O-Player Ruby Math Game!"
 puts "Player ONE , please choose a name: "
-#  create a new Player class and get the name form the terminal 
+#  create 2 new Players class and get the name form the terminal 
 p_name1 = gets.chomp
 player1= Player.new(p_name1)
 
